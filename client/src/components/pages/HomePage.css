@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Major+Mono+Display&family=Manuale&family=Open+Sans&display=swap');
+
+.homepage-container {
+    padding-top: 16px;
+    width: 100%;
+    
+    background: #fafafa;
+}
+
+.header-container {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+
+    background: none;
+}
+
+.homepage-header {
+    font-family: Major Mono Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    color: #000000;
+}
+
+.homepage-navbar {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homepage-navbar-button{
+    font-family: Major Mono Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height */
+
+    padding: 8px;
+    margin-top:10px;
+
+
+    color: #000000;
+}
+
+.mission-container {
+    height: 100px;
+}
+
+.homepage-art-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+

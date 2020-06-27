@@ -2,12 +2,24 @@ import React, { Component } from "react";
 import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
+import HomePage from "./pages/HomePage.js";
+import ArtistPage from "./pages/ArtistPage.js";
+
 
 import "../utilities.css";
 
 import { socket } from "../client-socket.js";
 
 import { get, post } from "../utilities";
+
+// Art imports
+import banuga from "./pages/art/Banuga.png";
+import phase1 from "./pages/art/phase1.jpeg";
+import phase2 from "./pages/art/phase2.jpg";
+import Shift from "./pages/ray_art/shift.jpg";
+import deconstructed from "./pages/ray_art/deconstructed.jpg";
+import {allArt, allArtists} from "./pages/art/allArt"
+
 
 /**
  * Define the "App" component as a class.
@@ -18,6 +30,8 @@ class App extends Component {
     super(props);
     this.state = {
       userId: undefined,
+      allArt,
+      allArtists,
     };
   }
 
@@ -44,12 +58,51 @@ class App extends Component {
     post("/api/logout");
   };
 
+  /**
+   * return an image
+   */
+  displayArt = (imageName) => {
+    if (imageName == 'banuga') {
+      return banuga;
+    }
+    else if (imageName == 'phase1') {
+      return phase1;
+    }
+    else if (imageName == 'phase2') {
+      return phase2;
+    }
+    else if (imageName == 'shift') {
+      return Shift;
+    }
+    else if (imageName == 'deconstructed') {
+      return deconstructed;
+    }
+  }
+
+  getArtistArt = artist => {
+    const thisArtistArt = this.state.allArt.filter(art => art.artistName == artist);
+    return thisArtistArt;
+  };
+
   render() {
     return (
       <>
         <Router>
-          <Skeleton
+          <HomePage
             path="/"
+            displayArt={this.displayArt}
+            allArt={this.state.allArt}
+            allArtists={this.state.allArtists}
+            getArtistArt={this.getArtistArt}
+          />
+          <ArtistPage
+            path=":artistLink"
+            allArt={this.state.allArt}
+            allArtists={this.state.allArtists}
+            getArtistArt={this.getArtistArt}
+          />
+          <Skeleton
+            path="/Skeleton"
             handleLogin={this.handleLogin}
             handleLogout={this.handleLogout}
             userId={this.state.userId}

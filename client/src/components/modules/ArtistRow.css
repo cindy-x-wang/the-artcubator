@@ -1,0 +1,40 @@
+.artist-row {
+    width: 80vw;
+    height: 300px;
+
+    margin: 20px 0px 20px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.artist-name-homepage {
+    width: 10vw;
+    text-align: right;
+
+    font-family: Manuale, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.art-row {
+    width: 100%;
+
+    margin-left: 16px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.artist-name-link {
+    text-decoration: none;
+    color: black;
+  }
