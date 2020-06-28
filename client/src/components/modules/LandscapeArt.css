@@ -1,0 +1,57 @@
+.landscape-container {
+    position: relative;
+    width: 100%;
+    background: #fafafa;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.landscape-artist-name{
+    font-family: Major Mono Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    /* identical to box height */
+
+    padding: 8px;
+    margin-top:10px;
+    margin-bottom:20px;
+
+    color: #000000;
+}
+
+.landscape-image-container {
+    height: 400px;
+    width: 60vw;
+    
+    /* background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.landscape-description-container {
+    width: 60vw;
+
+    font-family: Major Mono Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 22px;
+    text-align: left;
+
+    padding-top: 16px;
+}

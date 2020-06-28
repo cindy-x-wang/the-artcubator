@@ -16,23 +16,9 @@ class PortraitArt extends Component {
     render() {
 
       return (
-        <div className="artist-row">
-            <div className="artist-name-homepage">
-                <div>
-                <Link to={this.props.artist.link} className="artist-name-link">
-                  {this.props.artist.fName}
-                  <br/>
-                  {this.props.artist.lName}
-                </Link>
-                </div>
-            </div>
-            <div className="art-row">
-              {this.props.getArtistArt(this.props.artist.fName.concat(" ", this.props.artist.lName)).map((a) => (
-                <Link to={`${this.props.artist.link}/${a.link}`}>
-                  <HomepageImage art={a.artImage} displayArt={this.props.displayArt}/>
-                </Link>
-                   ))
-              }
+        <div className="portrait-container">
+            <div>
+                art
             </div>
         </div>
       );

@@ -2,4 +2,15 @@
     position: relative;
     width: 100%;
     background: #fafafa;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-art-container {
+    width: 80vw;
+    min-height: 100px;
 }

@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: flex-end;
     text-decoration: none;
+    background: #fafafa;
 }
 .NavBar-header {
 
@@ -27,9 +28,9 @@
     font-family: Major Mono Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 24px;
     text-decoration: none;
-    line-height: 25px;
+    line-height: 24px;
     /* identical to box height */
 
     padding: 8px;

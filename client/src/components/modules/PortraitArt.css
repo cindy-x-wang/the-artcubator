@@ -1,0 +1,11 @@
+.portrait-container {
+    position: relative;
+    width: 100%;
+    background: #fafafa;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}

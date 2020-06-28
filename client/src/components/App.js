@@ -112,12 +112,14 @@ class App extends Component {
             allArt={this.state.allArt}
             allArtists={this.state.allArtists}
             getArtistArt={this.getArtistArt}
+            displayArt={this.displayArt}
           >
             <IndividualArt
               path=":imageLink"
               allArt={this.state.allArt}
               allArtists={this.state.allArtists}
               getArtistArt={this.getArtistArt}
+              displayArt={this.displayArt}
             />
           </ArtistPage>
           <Skeleton

@@ -4,7 +4,8 @@ import { Link } from "@reach/router";
 import "../../utilities.css";
 import "./IndividualArt.css";
 
-import NavBar from "../modules/NavBar.js";
+import PortraitArt from "../modules/PortraitArt.js";
+import LandscapeArt from "../modules/LandscapeArt.js";
 
 
 /**
@@ -29,15 +30,12 @@ class IndividualArt extends Component {
       return (
         <div>
             <div className="individual-art-page-container">
-                <div>
-                    ew art
-                </div>
-                <div>
-                    {this.findArtPage().artName}
-                    <br/>
-                    {this.findArtPage().artistName}
-                    <br/>
-                    {this.findArtPage().artImage}
+                <div className="individual-art-container">
+                    {this.findArtPage().portrait ? (
+                        <PortraitArt displayArt={this.props.displayArt} art={this.findArtPage()}/>
+                    ) : (
+                        <LandscapeArt displayArt={this.props.displayArt} art={this.findArtPage()}/>
+                    )}
                 </div>
             </div>
         </div>
