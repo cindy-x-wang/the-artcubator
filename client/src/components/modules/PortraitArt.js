@@ -2,15 +2,13 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 
 import "../../utilities.css";
-import "./ArtistRow.css";
-import HomepageImage from "./HomepageImage.js";
-
+import "./PortraitArt.css";
 
 /**
- * Renders a single row containing art from one artist.
+ * Renders a single container containing one piece of portrait art.
  *
  */
-class ArtistRow extends Component {
+class PortraitArt extends Component {
     constructor(props) {
       super(props);
     }
@@ -41,4 +39,4 @@ class ArtistRow extends Component {
     }
   }
   
-  export default ArtistRow;  
+  export default PortraitArt;  

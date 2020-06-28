@@ -15,14 +15,30 @@ class IndividualArt extends Component {
     constructor(props) {
       super(props);
     }
+
+    findArtPage = () => {
+        const thisImage = this.props.allArt.find(
+            art => art.link == this.props.imageLink
+        );
+        console.log(thisImage);
+        return thisImage;
+      };
   
     render() {
 
       return (
         <div>
-            <NavBar/>
-            <div>
-                ew art
+            <div className="individual-art-page-container">
+                <div>
+                    ew art
+                </div>
+                <div>
+                    {this.findArtPage().artName}
+                    <br/>
+                    {this.findArtPage().artistName}
+                    <br/>
+                    {this.findArtPage().artImage}
+                </div>
             </div>
         </div>
       );

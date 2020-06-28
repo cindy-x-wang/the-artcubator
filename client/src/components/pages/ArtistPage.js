@@ -25,8 +25,11 @@ class ArtistPage extends Component {
       return (
         <div>
           <NavBar/>
-          <div>
+          <div className="artist-page-container">
             {this.findArtistPage().fName}
+          </div>
+          <div>
+            {this.props.children}
           </div>
         </div>
       );

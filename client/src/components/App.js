@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage.js";
 import ArtistPage from "./pages/ArtistPage.js";
 import AllArtPage from "./pages/AllArtPage.js";
 import AboutUs from "./pages/AboutUs.js";
+import IndividualArt from "./pages/IndividualArt.js";
 
 
 import "../utilities.css";
@@ -22,6 +23,9 @@ import Shift from "./pages/ray_art/shift.jpg";
 import deconstructed from "./pages/ray_art/deconstructed.jpg";
 import {allArt, allArtists} from "./pages/art/allArt"
 
+const Empty = ({ children }) => {
+  return children;
+}
 
 /**
  * Define the "App" component as a class.
@@ -108,7 +112,14 @@ class App extends Component {
             allArt={this.state.allArt}
             allArtists={this.state.allArtists}
             getArtistArt={this.getArtistArt}
-          />
+          >
+            <IndividualArt
+              path=":imageLink"
+              allArt={this.state.allArt}
+              allArtists={this.state.allArtists}
+              getArtistArt={this.getArtistArt}
+            />
+          </ArtistPage>
           <Skeleton
             path="/Skeleton"
             handleLogin={this.handleLogin}
