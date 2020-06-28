@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./ArtistPage.css";
 
+import NavBar from "../modules/NavBar.js";
+
 /**
  * Renders a single image containing art.
  *
@@ -22,7 +24,10 @@ class ArtistPage extends Component {
     render() {
       return (
         <div>
+          <NavBar/>
+          <div>
             {this.findArtistPage().fName}
+          </div>
         </div>
       );
     }

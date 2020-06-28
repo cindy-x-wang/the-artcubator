@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./AllArtPage.css";
 
+import NavBar from "../modules/NavBar.js";
+
 /**
  * Renders a single page to showcase all artists art.
  *
@@ -14,7 +16,10 @@ class AllArtPage extends Component {
     render() {
       return (
         <div>
-            all the art is here
+            <NavBar/>
+            <div>
+                all the art is here
+            </div>
         </div>
       );
     }

@@ -4,6 +4,8 @@ import { Link } from "@reach/router";
 import "../../utilities.css";
 import "./IndividualArt.css";
 
+import NavBar from "../modules/NavBar.js";
+
 
 /**
  * Renders a single page for one piece of art.
@@ -18,7 +20,10 @@ class IndividualArt extends Component {
 
       return (
         <div>
-            ew art
+            <NavBar/>
+            <div>
+                ew art
+            </div>
         </div>
       );
     }
