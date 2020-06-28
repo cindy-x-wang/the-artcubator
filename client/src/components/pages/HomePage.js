@@ -23,13 +23,13 @@ class HomePage extends Component {
             the ARtcubator
             </div>
             <div className="homepage-navbar">
-                <div className="homepage-navbar-button">
+                <Link to="/artwork" className="homepage-navbar-button">
                     artwork
-                </div>
+                </Link>
 
-                <div className="homepage-navbar-button">
+                <Link to="/aboutus" className="homepage-navbar-button">
                     about us
-                </div>
+                </Link>
             </div>
             <div className="mission-container u-textCenter">
                 mission statement here

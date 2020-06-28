@@ -19,8 +19,6 @@ class ArtistRow extends Component {
     }
   
     render() {
-      console.log(this.props.allArt);
-      console.log("hi");
 
       return (
         <div className="artist-row">

@@ -4,6 +4,8 @@ import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
 import HomePage from "./pages/HomePage.js";
 import ArtistPage from "./pages/ArtistPage.js";
+import AllArtPage from "./pages/AllArtPage.js";
+import AboutUs from "./pages/AboutUs.js";
 
 
 import "../utilities.css";
@@ -94,6 +96,12 @@ class App extends Component {
             allArt={this.state.allArt}
             allArtists={this.state.allArtists}
             getArtistArt={this.getArtistArt}
+          />
+          <AllArtPage
+            path="/artwork"
+          />
+          <AboutUs
+            path="/aboutus"
           />
           <ArtistPage
             path=":artistLink"
