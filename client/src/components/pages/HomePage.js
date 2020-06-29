@@ -32,7 +32,7 @@ class HomePage extends Component {
                 </Link>
             </div>
             <div className="mission-container u-textCenter">
-                mission statement here
+                mission statement here mission statement here mission statement here mission statement here
             </div>
             <div className="homepage-art-container">
                 {this.props.allArtists.map((a) => (

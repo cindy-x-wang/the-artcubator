@@ -21,7 +21,8 @@ import phase1 from "./pages/art/phase1.jpeg";
 import phase2 from "./pages/art/phase2.jpg";
 import Shift from "./pages/ray_art/shift.jpg";
 import deconstructed from "./pages/ray_art/deconstructed.jpg";
-import {allArt, allArtists} from "./pages/art/allArt"
+import eden from "./pages/art/Eden.jpg";
+import {allArt, allArtists} from "./pages/art/allArt";
 
 const Empty = ({ children }) => {
   return children;
@@ -82,6 +83,9 @@ class App extends Component {
     }
     else if (imageName == 'deconstructed') {
       return deconstructed;
+    }
+    else if (imageName == 'eden') {
+      return eden;
     }
   }
 

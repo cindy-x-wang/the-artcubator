@@ -14,18 +14,22 @@ class HomepageImage extends Component {
 
     getArtistArt = artist => {
       const thisArtistArt = this.props.allArt.filter(art => art.artistName == artist);
-      console.log(thisArtistArt);
       return thisArtistArt;
     };
   
     render() {
-      console.log(this.props.allArt);
-      console.log("hi");
-
       return (
-        <div className="homepage-picture-container">
-            <img src={this.props.displayArt(this.props.art)} height="100%"/>
-        </div>
+        <>
+          {this.props.ind == 0 ? (
+            <div className="index0-homepage-picture-container">
+              <img src={this.props.displayArt(this.props.art)} height="100%"/>
+            </div>
+          ) : (
+            <div className="homepage-picture-container">
+              <img src={this.props.displayArt(this.props.art)} height="100%"/>
+            </div>
+          )}
+        </>
       );
     }
   }

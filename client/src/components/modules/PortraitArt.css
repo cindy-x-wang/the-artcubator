@@ -6,6 +6,82 @@
     display: flex;
 
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
+
+    margin-top: 50px;
 }
+
+.portrait-artist-name{
+    font-family: Major Mono Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+
+    justify-self: center;
+    /* identical to box height */
+
+    padding: 8px;
+    margin-top:10px;
+    margin-bottom:32px;
+
+    color: #000000;
+}
+
+.portrait-image-container {
+    height: 80vh;
+    width: auto;
+    
+    /* background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.portrait-text-container {
+    max-width: 50vw;
+    height: auto;
+
+    margin-left: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.portrait-description-container {
+    width: 100%;
+
+    font-family: Major Mono Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 22px;
+    text-align: left;
+
+    padding-top: 16px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .portrait-image-container {
+        height: auto;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+    
+    }
+    .portrait-description-container {
+        width: 100%;
+    }
+  }

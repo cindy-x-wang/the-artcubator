@@ -21,7 +21,7 @@ class LandscapeArt extends Component {
                 {this.props.art.artistName.toLowerCase()}
             </Link>
             <div className="landscape-image-container">
-                <img src={this.props.displayArt(this.props.art.artImage)} height="100%" />
+                <img src={this.props.displayArt(this.props.art.artImage)} width="100%" />
             </div>
             <div className="landscape-description-container">
                 {this.props.art.artName}

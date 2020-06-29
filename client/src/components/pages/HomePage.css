@@ -25,6 +25,8 @@
 
     text-align: center;
 
+    
+
 
     color: #000000;
 }
@@ -52,11 +54,16 @@
     margin-top:10px;
 
 
+
+
     color: #000000;
 }
 
 .mission-container {
-    height: 100px;
+    min-height: 100px;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 .homepage-art-container{

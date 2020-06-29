@@ -6,9 +6,14 @@ export const allArtists = [
       "link": "acai",
     },
     {
+        "fName": "Connie",
+        "lName": "Gong",
+        "link": "conniegong",
+    },
+    {
       "fName": "Raymond",
       "lName": "Banke",
-      "link": "rbc",
+      "link": "raymondisdumb",
     },
   ]
   
@@ -21,7 +26,7 @@ export const allArt = [
     "link": "banuga",
     "portrait": false,
     "artDescription": "this is probably art",
-    "artMedium": "some type of medium",
+    "artMedium": "some type of medium some type of medium some type of medium some type of medium",
     },
     {
     "artName": "Leon's bullshit names",
@@ -58,5 +63,14 @@ export const allArt = [
     "portrait": false,
     "artDescription": "this is probably art",
     "artMedium": "some type of medium",
+    },
+    {
+      "artName": "Eden",
+      "artistName": "Connie Gong",
+      "artImage": "eden",
+      "link": "eden",
+      "portrait": true,
+      "artDescription": "this is probably art, something something eden, this seems important who knows",
+      "artMedium": "oil",
     },
 ]

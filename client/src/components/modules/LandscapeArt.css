@@ -30,8 +30,8 @@
 }
 
 .landscape-image-container {
-    height: 400px;
-    width: 60vw;
+    height: auto;
+    width: 50vw;
     
     /* background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .landscape-description-container {
-    width: 60vw;
+    width: 50vw;
 
     font-family: Major Mono Display;
     font-style: normal;
@@ -55,3 +55,18 @@
 
     padding-top: 16px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .landscape-image-container {
+        height: auto;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+    
+    }
+    .landscape-description-container {
+        width: 100%;
+    }
+  }

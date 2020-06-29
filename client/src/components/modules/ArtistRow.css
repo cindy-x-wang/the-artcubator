@@ -3,15 +3,21 @@
     height: 300px;
 
     margin: 20px 0px 20px 0px;
+    padding: 0px 32px 16px 32px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .artist-name-homepage {
     width: 10vw;
-    text-align: right;
+    text-align: center;
 
     font-family: Manuale, serif;
     font-style: normal;
@@ -26,15 +32,49 @@
 }
 
 .art-row {
-    width: 100%;
+    max-width: 100%;
 
-    margin-left: 16px;
-    overflow-x: scroll;
+    margin: 0px 16px 0px 16px;
+    overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+
+    text-align: center;
+
+}
+
+.artist-row-name-container {
+    /* min-width: 300px; */
+    height: 20px;
+
+    background-color: #fafafa;
+    align-self: center;
+
+    text-align: center;
+
+    font-family: Manuale, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    color: black;
 }
 
 .artist-name-link {
     text-decoration: none;
     color: black;
+    position:relative; 
+    bottom: 12px; 
+    padding:0 
+    15px; 
+    display:inline-block; 
+    background-color: #fafafa;
   }
+
+.top-border {
+    display: block; 
+    width: 100%; 
+    margin-bottom:25px; 
+    text-align:center
+}
+  

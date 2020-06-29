@@ -19,19 +19,17 @@ class ArtistRow extends Component {
 
       return (
         <div className="artist-row">
-            <div className="artist-name-homepage">
-                <div>
-                <Link to={this.props.artist.link} className="artist-name-link">
-                  {this.props.artist.fName}
-                  <br/>
-                  {this.props.artist.lName}
-                </Link>
+            <div className="top-border">              
+                <div className="artist-row-name-container">
+                  <Link to={this.props.artist.link} className="artist-name-link">
+                    {this.props.artist.fName.concat(" ", this.props.artist.lName)}
+                  </Link>
                 </div>
             </div>
             <div className="art-row">
-              {this.props.getArtistArt(this.props.artist.fName.concat(" ", this.props.artist.lName)).map((a) => (
+              {this.props.getArtistArt(this.props.artist.fName.concat(" ", this.props.artist.lName)).map((a,index) => (
                 <Link to={`${this.props.artist.link}/${a.link}`}>
-                  <HomepageImage art={a.artImage} displayArt={this.props.displayArt}/>
+                  <HomepageImage art={a.artImage} displayArt={this.props.displayArt} key={index} ind={index}/>
                 </Link>
                    ))
               }

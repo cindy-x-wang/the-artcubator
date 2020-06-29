@@ -17,8 +17,22 @@ class PortraitArt extends Component {
 
       return (
         <div className="portrait-container">
-            <div>
-                art
+            <div className="portrait-image-container">
+                <img src={this.props.displayArt(this.props.art.artImage)} height="100%" />
+            </div>
+            <div className="portrait-text-container">
+              <Link to="../" className="portrait-artist-name">
+                  {this.props.art.artistName.toLowerCase()}
+              </Link>
+              <div className="portrait-description-container">
+                  {this.props.art.artName}
+              </div>
+              <div className="portrait-description-container">
+                  {this.props.art.artMedium}
+              </div>
+              <div className="portrait-description-container">
+                  {this.props.art.artDescription}
+              </div>
             </div>
         </div>
       );
