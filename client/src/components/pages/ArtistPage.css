@@ -4,6 +4,33 @@
     width: 100%;
     z-index: -1;
 
-    display:flex;
+    background: #fafafa;
 
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+    padding-top: 50px;
+
+}
+
+.artistpage-artist-name{
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+
+    justify-self: center;
+    /* identical to box height */
+
+    padding: 8px;
+    margin-top:10px;
+    margin-bottom:32px;
+
+    color: #000000;
 }

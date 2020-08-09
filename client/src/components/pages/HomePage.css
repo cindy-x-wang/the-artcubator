@@ -5,6 +5,10 @@
     width: 100%;
     
     background: #fafafa;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header-container {
@@ -61,9 +65,13 @@
 
 .mission-container {
     min-height: 100px;
-    font-family: Helvetica;
+    width: 50vw;
+    font-family: Manuale;
     font-size: 20px;
     padding-top: 30px;
+    padding-bottom: 30px;
+
+    align-self: center;
 }
 
 .homepage-art-container{

@@ -26,7 +26,17 @@ class ArtistPage extends Component {
         <div>
           <NavBar/>
           <div className="artist-page-container">
-            {this.findArtistPage().fName} 's crap
+            <div className="portrait-image-container">
+                image here
+            </div>
+            <div className="portrait-text-container">
+              <div className="artistpage-artist-name">
+                {this.findArtistPage().fName.toLowerCase().concat(" ", this.findArtistPage().lName.toLowerCase())}
+              </div>
+              <div className="portrait-description-container">
+                {this.findArtistPage().artistDescription}
+              </div>
+            </div>
           </div>
           <div>
             {this.props.children}
