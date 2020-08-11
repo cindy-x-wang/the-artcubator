@@ -31,9 +31,6 @@ class HomePage extends Component {
                     about us
                 </Link>
             </div>
-            <div className="mission-container u-textCenter">
-                We provide young artists with an incubator-like platform to connect with each other, sell their artwork, and grow their brands. We focus on personalized fine art by growing artists and seek to provide consumers with high-quality work while also supporting our creators in doing what they love. 
-            </div>
             <div className="homepage-art-container">
                 {this.props.allArtists.map((a) => (
                     <div>
