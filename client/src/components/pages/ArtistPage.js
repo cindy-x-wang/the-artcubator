@@ -3,6 +3,7 @@ import "../../utilities.css";
 import "./ArtistPage.css";
 
 import NavBar from "../modules/NavBar.js";
+import ExploreMore from "../modules/ExploreMore.js";
 
 /**
  * Renders a single image containing art.
@@ -26,6 +27,7 @@ class ArtistPage extends Component {
         <div>
           <NavBar/>
           <div className="artist-page-container">
+            <div className="artist-page-intro">
             <div className="portrait-image-container">
                 image here
             </div>
@@ -33,11 +35,17 @@ class ArtistPage extends Component {
               <div className="artistpage-artist-name">
                 {this.findArtistPage().fName.toLowerCase().concat(" ", this.findArtistPage().lName.toLowerCase())}
               </div>
-              <div className="portrait-description-container">
+              <div className="artist-description-container">
                 {this.findArtistPage().artistDescription}
               </div>
             </div>
+            </div>
+            <div className="explore-container">
+              <ExploreMore artist={this.findArtistPage()} allArt={this.props.allArt} displayArt={this.props.displayArt} getArtistArt={this.props.getArtistArt}/>
+            </div>
           </div>
+          
+          
           <div>
             {this.props.children}
           </div>

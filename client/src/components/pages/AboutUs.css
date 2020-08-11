@@ -45,11 +45,23 @@
 }
 
 .idiot-image-container-cindy {
-    min-height: 500px;
+    min-height: 60vh;
     background-image: url('./aboutus_images/cindy.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.idiot-name {
+    margin-top: 20px;
+
+    font-family: "Major Mono Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
 }
 
 .idiot-image-container-ray {

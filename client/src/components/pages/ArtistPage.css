@@ -8,16 +8,27 @@
 
     display: flex;
 
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     align-content: center;
 
     padding-top: 50px;
 
 }
 
+.artist-page-intro{
+    height: max-content;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
 .artistpage-artist-name{
-    font-family: Manuale;
+    font-family: Major Mono Display;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -33,4 +44,33 @@
     margin-bottom:32px;
 
     color: #000000;
+}
+
+.artist-description-container {
+    width: 100%;
+    max-width: 400px;
+
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: left;
+
+    padding-top: 16px;
+}
+
+.explore-container {
+    height: max-content;
+    width: 100%;
+
+    background: #fafafa;
+
+    margin: auto;
+
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
 }
