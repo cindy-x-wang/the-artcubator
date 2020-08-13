@@ -31,7 +31,13 @@ class LandscapeArt extends Component {
             </div>
             <div className="landscape-description-container">
                 {this.props.art.artDescription}
+
+                <br/> <br/>
+                <Link to="/contactus">
+                  <button> contact us </button>
+                </Link>
             </div>
+            
         </div>
       );
     }

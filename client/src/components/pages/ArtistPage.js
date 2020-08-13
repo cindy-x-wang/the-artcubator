@@ -12,6 +12,9 @@ import ExploreMore from "../modules/ExploreMore.js";
 class ArtistPage extends Component {
     constructor(props) {
       super(props);
+      this.state = {
+        exploreShown: true,
+      };
     }
 
     findArtistPage = () => {
@@ -21,6 +24,18 @@ class ArtistPage extends Component {
         console.log(thisArtist);
         return thisArtist;
       };
+
+    showExplore = () => {
+      this.setState({
+        exploreShown: true,
+      })
+    };
+
+    hideExplore = () => {
+      this.setState({
+        exploreShown: false,
+      })
+    };
   
     render() {
       return (
@@ -29,7 +44,7 @@ class ArtistPage extends Component {
           <div className="artist-page-container">
             <div className="artist-page-intro">
             <div className="portrait-image-container">
-                image here
+              <img src={this.props.displayArtist(this.props.artistLink)} height="100%"/>
             </div>
             <div className="portrait-text-container">
               <div className="artistpage-artist-name">
@@ -40,9 +55,13 @@ class ArtistPage extends Component {
               </div>
             </div>
             </div>
-            <div className="explore-container">
-              <ExploreMore artist={this.findArtistPage()} allArt={this.props.allArt} displayArt={this.props.displayArt} getArtistArt={this.props.getArtistArt}/>
-            </div>
+            {this.state.exploreShown ? (
+              <div className="explore-container">
+                <ExploreMore artist={this.findArtistPage()} allArt={this.props.allArt} displayArt={this.props.displayArt} getArtistArt={this.props.getArtistArt}/>
+              </div>
+            ) : (
+              <div/>
+            )}
           </div>
           
           

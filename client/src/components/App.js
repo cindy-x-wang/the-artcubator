@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage.js";
 import ArtistPage from "./pages/ArtistPage.js";
 import AllArtPage from "./pages/AllArtPage.js";
 import AboutUs from "./pages/AboutUs.js";
+import ContactUs from "./pages/ContactUs.js";
 import IndividualArt from "./pages/IndividualArt.js";
 
 
@@ -23,7 +24,11 @@ import Shift from "./pages/ray_art/shift.jpg";
 import deconstructed from "./pages/ray_art/deconstructed.jpg";
 import eden from "./pages/art/Eden.jpg";
 import calm from "./pages/art/calm.png";
+
 import {allArt, allArtists} from "./pages/art/allArt";
+
+// Artist headshot imports
+import AshleyCai from "./pages/artist_headshots/AshleyCai.jpg"
 
 const Empty = ({ children }) => {
   return children;
@@ -93,6 +98,12 @@ class App extends Component {
     }
   }
 
+  displayArtist = (artistLink) => {
+    if (artistLink == 'acai') {
+      return AshleyCai;
+    }
+  }
+
   getArtistArt = artist => {
     const thisArtistArt = this.state.allArt.filter(art => art.artistName == artist);
     return thisArtistArt;
@@ -112,6 +123,9 @@ class App extends Component {
           <AllArtPage
             path="/artwork"
           />
+          <ContactUs
+            path="/contactus"
+          />
           <AboutUs
             path="/aboutus"
           />
@@ -121,6 +135,7 @@ class App extends Component {
             allArtists={this.state.allArtists}
             getArtistArt={this.getArtistArt}
             displayArt={this.displayArt}
+            displayArtist={this.displayArtist}
           >
             <IndividualArt
               path=":imageLink"

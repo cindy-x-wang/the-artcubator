@@ -32,6 +32,11 @@ class PortraitArt extends Component {
               </div>
               <div className="portrait-description-container">
                   {this.props.art.artDescription}
+
+                  <br/> <br/>
+                  <Link to="/contactus">
+                    <button> contact us </button>
+                  </Link>
               </div>
             </div>
         </div>

@@ -18,8 +18,8 @@ class NavBar extends Component {
     render() {
       return (
         <div className="NavBar-container">
-            <Link to="/artwork" className="NavBar-button">
-                artwork
+            <Link to="/contactus" className="NavBar-button">
+                contact us
             </Link>
 
             <Link to="/" className="NavBar-header u-textCenter">
