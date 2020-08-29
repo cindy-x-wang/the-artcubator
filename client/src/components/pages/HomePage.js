@@ -3,6 +3,7 @@ import { Link } from "@reach/router";
 import "../../utilities.css";
 import "./HomePage.css";
 
+import NavBar from "../modules/NavBar"
 import ArtistRow from "../modules/ArtistRow.js";
 
 /**
@@ -19,7 +20,8 @@ class HomePage extends Component {
     render() {
       return (
         <div className="homepage-container">
-            <div className="homepage-header u-textCenter">
+            <NavBar/>
+           {/*  <div className="homepage-header u-textCenter">
             the ARtcubator
             </div>
             <div className="homepage-navbar">
@@ -30,7 +32,7 @@ class HomePage extends Component {
                 <Link to="/aboutus" className="homepage-navbar-button">
                     about us
                 </Link>
-            </div>
+            </div> */}
             <div className="homepage-art-container">
                 {this.props.allArtists.map((a) => (
                     <div>
