@@ -55,8 +55,8 @@ export const allArt = [
     {
       "artName": "Hook, Line, and Sinker",
       "artistName": "Ashley Cai",
-      "artImage": "hook", "line", "sinker"
-      "link": "hook", "line", "sinker"
+      "artImage": "hooklinesinker",
+      "link": "hooklinesinker",
       "portrait": false,
       "artDescription": "The vitality is drained out of the fish as they are suctioned through a robotic, merciless system. This triptych represents how capitalism values people only for their productivity and discards them once they are no longer of use.",
       "artMedium": "watercolor",
@@ -66,61 +66,61 @@ export const allArt = [
       "artistName": "Ashley Cai",
       "artImage": "banuga",
       "link": "banuga",
-      "portrait": false
+      "portrait": false,
       "artDescription": "It's a banana beluga whale.",
       "artMedium": "digital",
     },
     {
-      "artName": "Please Remain Calm"
+      "artName": "Please Remain Calm",
       "artistName": "Ashley Cai",
-      "artImage": "pleaseremaincalm"
-      "link": "pleaseremaincalm
-      "portrait": false
+      "artImage": "pleaseremaincalm",
+      "link": "pleaseremaincalm",
+      "portrait": false,
       "artDescription": "A thin pane of glass is the only thing that separates her from the fiercely passionate mayhem that awaits outside. The cool tones and geometric shapes inside the apartment contrast against the saturated warmth and loose watercolors outside the window, representing inaction in the face of revolution.",
-      "artMedium": "watercolor", "inkpen", 
+      "artMedium": "watercolor, inkpen", 
     },
     {
-      "artName": "Where the Wild Things Are"
+      "artName": "Where the Wild Things Are",
       "artistName": "Angela Wei", 
-      "artImage": "wherethewildthingsare"
+      "artImage": "wherethewildthingsare",
       "link": "wherethewildthingsare",
-      "portrait": false
+      "portrait": false,
       "artDescription": "‘Where the Wild Things Are’ is an exploration of color and linework. It features a figure kneeling in a forest of flowers that depicts a story that is simultaneously mundane yet also whimsical. Some stories that the artist was inspired by for this painting was Alice in Wonderland and the children’s story book, Where the Wild Things Are.",
       "artMedium": "acrylic",
     },
     {
-      "artName": "Inferno"
+      "artName": "Inferno",
       "artistName": "Angela Wei", 
-      "artImage": "inferno"
+      "artImage": "inferno",
       "link": "inferno",
-      "portrait": false
+      "portrait": false,
       "artDescription": "In an increasingly digitized age, we often are controlled by our technology. Our phones are becoming the entire way through which we perceive the world; many of us are no longer living in the moment but vicariously through others' feeds. ‘Inferno’ depicts the moment where one becomes powerless and possessed by technology. The main character falls into the abyss only to be scorched by her demons.",
       "artMedium": "acrylic",
     },
     {
-      "artName": "In the Jungle (Digital Color)"
+      "artName": "In the Jungle (Digital Color)",
       "artistName": "Angela Wei", 
-      "artImage": "inthejungledigital"
+      "artImage": "inthejungledigital",
       "link": "inthejungledigital",
-      "portrait": false
+      "portrait": false,
       "artDescription": "One of Angela’s earlier works, ‘In the Jungle’ bears many similarities to her later works, namely ‘Where the Wild Things Are’, but is a much more stripped back, colorless, version. The piece draws upon mythological and oriental qualities, both of which are elements that the artist cites throughout her portfolio. The digital coloring of this piece gives it more of a children’s storybook quality.",
       "artMedium": "digital",
     },
     {
-      "artName": "In the Jungle (Ink Pen)"
+      "artName": "In the Jungle (Ink Pen)",
       "artistName": "Angela Wei", 
-      "artImage": "inthejungleinkpen"
+      "artImage": "inthejungleinkpen",
       "link": "inthejungleinkpen",
-      "portrait": false
+      "portrait": false,
       "artDescription": "One of Angela’s earlier works, ‘In the Jungle’ bears many similarities to her later works, namely ‘Where the Wild Things Are’, but is a much more stripped back, colorless, version. The piece draws upon mythological and oriental qualities, both of which are elements that the artist cites throughout her portfolio. An original art piece that is identical to the black and white version but colored in by hand with color pencils. The use of traditional mediums in the piece gives it a greater fine art touch.",
       "artMedium": "inkpen",
     },
     {
-      "artName": "In the Jungle (Color Pencil)"
+      "artName": "In the Jungle (Color Pencil)",
       "artistName": "Angela Wei", 
-      "artImage": "inthejunglecp"
+      "artImage": "inthejunglecp",
       "link": "inthejunglecp",
-      "portrait": true
+      "portrait": true,
       "artDescription": "One of Angela’s earlier works, ‘In the Jungle’ bears many similarities to her later works, namely ‘Where the Wild Things Are’, but is a much more stripped back, colorless, version. The piece draws upon mythological and oriental qualities, both of which are elements that the artist cites throughout her portfolio. The piece draws upon mythological and oriental qualities, both of which are elements that the artist cites throughout her portfolio.",
       "artMedium": "colorpencil",
     },
@@ -129,7 +129,7 @@ export const allArt = [
       "artistName": "Connie Gong",
       "artImage": "eden",
       "link": "eden",
-      "portrait": true
+      "portrait": true,
       "artDescription": "After seeing the German Art After 1960 exhibition at the San Francisco Museum of Modern Art, Connie was inspired by the artists' use of texture and sought to explore the materiality of flexible modeling paste through a series of paintings. Among those paintings is Eden, whose title is a reference to the biblical paradise. The work depicts a pond of water lilies among a lush forest and is notable for the presence of soft light throughout the composition.",
       "artMedium": "acrylic",
     },
@@ -138,7 +138,7 @@ export const allArt = [
       "artistName": "Connie Gong",
       "artImage": "passageoftime",
       "link": "passageoftime",
-      "portrait": false
+      "portrait": false,
       "artDescription": "Passage of Time originated as a single acrylic painting that explored the sensation of time. After finishing the individual piece, Connie wanted to further explore this sensation and hence, two more pieces were created to form a set of three paintings. Collectively, the triptych highlights Connie’s belief that an awareness of time only increases throughout a lifetime. As the viewer's eye travels from left to right, they follow this awareness as it begins in childhood with vague acknowledgement and transforms in late adulthood as an unrelenting reminder that although time is infinite, each individual's time in this life is not.",
       "artMedium": "acrylic",
     },
@@ -147,7 +147,7 @@ export const allArt = [
       "artistName": "Cynthia Zhou",
       "artImage": "idreamtwespokeagain",
       "link": "idreamtwespokeagain",
-      "portrait": true
+      "portrait": true,
       "artDescription": "I Dreamt We Spoke Again is a 2D cardboard sculpture detailing the “two-headedness” of remembering, the bittersweet attempt to wish something into existence again. In this piece, colorful, docile hands are juxtaposed with a black and white snake. One head hesitates and recedes back into the hands, while the other head reaches upwards.",
       "artMedium": "oil",
     },
@@ -156,7 +156,7 @@ export const allArt = [
       "artistName": "Cynthia Zhou",
       "artImage": "affinityfordreamingHQ",
       "link": "affinityfordreamingHQ",
-      "portrait": true
+      "portrait": true,
       "artDescription": "An Affinity for Dreaming is a portrait of the artist’s younger brother. In this piece, multiple faces echo the restlessness of living in perpetual stalemate, torn between the powerful compulsion to boldly go forth and the equally powerful apprehension of failure. The presence of fluorescent pink peeking through layers of greys and blues, however, suggests that underneath self doubt lies the enduring existence of conviction.",
       "artMedium": "oil",
     },
@@ -165,7 +165,7 @@ export const allArt = [
       "artistName": "Cynthia Zhou",
       "artImage": "pinkHQ",
       "link": "pinkHQ",
-      "portrait": false
+      "portrait": false,
       "artDescription": "Because of its stigmatization as the “gay disease”, tens of thousands of Americans would die before any substantial action was taken from the Reagan administration. Politicizing an apolitical virus meant that the queer community of the 1980’s was all but wiped out. This is a portrait of every queer person who lived and died anonymously in the AIDS era; faceless but not forgotten. As COVID-19 continues to surge in 2020, the same historical patterns are reinstated—disease becomes a partisan issue, and ethnic and racial minorities are disproportionately affected by the virus.",
       "artMedium": "oil",
     },
@@ -174,7 +174,7 @@ export const allArt = [
       "artistName": "Cynthia Zhou",
       "artImage": "boxers",
       "link": "boxers",
-      "portrait": true
+      "portrait": true,
       "artDescription": "What does it mean to domesticate violence? In this piece, the viewer becomes a voyeur to a nonsensical fight scene in the snow. From the boxers’ stitched faces hang tickets to future fights. The artist questions the ways we have repackaged and reinvented the cyclical nature of violence, designating it spaces within the home, the screen, and positions of power–and argues that normalizing violence desensitizes those who observe it.",
       "artMedium": "oil",
     },
@@ -183,7 +183,7 @@ export const allArt = [
       "artistName": "Katrina Liou",
       "artImage": "baozijiaozi",
       "link": "baozijiaozi",
-      "portrait": true
+      "portrait": true,
       "artDescription": "The “Baozi Jiaozi” piece was designed for a hypothetical Chinese menu for a project at the California State Summer School for the Arts.",
       "artMedium": "gouache",
     },
@@ -192,7 +192,7 @@ export const allArt = [
       "artistName": "Katrina Liou",
       "artImage": "thegoodolddays",
       "link": "thegoodolddays",
-      "portrait": true
+      "portrait": true,
       "artDescription": "",
       "artMedium": "acrylic",
     },
@@ -201,34 +201,34 @@ export const allArt = [
       "artistName": "Katrina Liou",
       "artImage": "falling",
       "link": "falling",
-      "portrait": false
+      "portrait": false,
       "artDescription": "“Falling” examines human relationships and interaction during turbulent experiences. Stylized line quality evokes rawness and invites viewers to question emotion.",
-      "artMedium": "acrylic", "sumi ink",
+      "artMedium": "acrylic, sumi ink",
     },
     {
       "artName": "Traversing Time",
       "artistName": "Katrina Liou",
       "artImage": "traversingtime",
       "link": "traversingtime",
-      "portrait": true
+      "portrait": true,
       "artDescription": "“Traversing Time” explores the role time and space plays in the formation of human connection.",
-      "artMedium": "color pencil", "charcoal",
+      "artMedium": "color pencil, charcoal",
     },
     {
       "artName": "Tangled",
       "artistName": "Katrina Liou",
       "artImage": "tangled",
       "link": "tangled",
-      "portrait": false
+      "portrait": false,
       "artDescription": "“Tangled” examines interconnectedness.",
-      "artMedium": "acrylic", "sumi ink",
+      "artMedium": "acrylic, sumi ink",
     },
     {
       "artName": "Portrait Study",
       "artistName": "Katrina Liou",
       "artImage": "portraitstudy",
       "link": "portraitstudy",
-      "portrait": false
+      "portrait": false,
       "artDescription": "",
       "artMedium": "digital",
     },
@@ -237,16 +237,16 @@ export const allArt = [
       "artistName": "Katrina Liou",
       "artImage": "blackhole",
       "link": "blackhole",
-      "portrait": true
+      "portrait": true,
       "artDescription": "",
-      "artMedium": "acrylic", "newspaper",
+      "artMedium": "acrylic, newspaper",
     },
     {
       "artName": "Goldfish",
       "artistName": "Katrina Liou",
       "artImage": "goldfishbowl",
       "link": "goldfishbowl",
-      "portrait": true
+      "portrait": true,
       "artDescription": "",
       "artMedium": "watercolor"
     },
@@ -255,7 +255,7 @@ export const allArt = [
       "artistName": "Liza Evseeva",
       "artImage": "sunroom",
       "link": "sunroom",
-      "portrait": false
+      "portrait": false,
       "artDescription": "Liza originally developed the concept for this piece in 2018, as part of her 12-piece final concentration for her high school AP 2D Design (digital art) course. Liza's concentration explored the various worlds connected by windows. She used a saturated, painterly style that romanticizes reality, along with a limited color scheme for each piece to set a mood that ties together the subjects on both sides of the glass. For this piece, Liza wanted to create a warm, inviting mood, with the windows playing a large part in setting the scene. 'This is my dream room,' she says.",
       "artMedium": "digital"
     },
@@ -264,25 +264,25 @@ export const allArt = [
       "artistName": "Liza Evseeva",
       "artImage": "reaching",
       "link": "reaching",
-      "portrait": true
+      "portrait": true,
       "artDescription": "Reaching is a prime example of Liza's experimentation with traditional mediums. Due to the see-through background, the piece can be re-contextualized when placed in different settings. The motion of the hands signifies both reaching towards a goal, and holding yourself back due to doubt. This is also reflected in the transition from cool colors in the bottom of the painting, to warm tones in the top fingertips. This painting is mysterious, tense, yet still hopeful.",
-      "artMedium": "acrylic", "glass"
+      "artMedium": "acrylic, glass",
     },
     {
       "artName": "RGB",
       "artistName": "Liza Evseeva",
       "artImage": "rgb",
       "link": "rgb",
-      "portrait": true
+      "portrait": true,
       "artDescription": "Liza does a lot of digital painting, and in this piece, she intended to bring the clean, vibrant, 'digital' quality to a traditional portrait. Even though she used a photo by Petra Collins as a reference, she made the portrait her own by painting it semi-realistically -- exaggerating the colors, simplifying features, and using expressive brush strokes. Liza loves working with vibrant colors, and the colorful lighting in this piece certainly shows that.",
-      "artMedium": "acrylic", "oil"
+      "artMedium": "acrylic, oil",
     },
     {
       "artName": "Big Blue",
       "artistName": "Liza Evseeva",
       "artImage": "bigblue",
       "link": "bigblue",
-      "portrait": false
+      "portrait": false,
       "artDescription": "Liza originally developed the concept for this piece in 2018, as part of her 12-piece final concentration for her high school AP 2D Design (digital art) course. Liza's concentration explored the various worlds connected by windows. She used a saturated, painterly style that romanticizes reality, along with a limited color scheme for each piece to set a mood that ties together the subjects on both sides of the glass. In Big Blue, Liza predominantly used blue to convey the grandeur and calm of the whale. However, she added a tinge of reddish-orange to the silhouette of the boy to not only complete the complementary color scheme, but also to show the excitement the child is feeling.",
       "artMedium": "digital"
     },
