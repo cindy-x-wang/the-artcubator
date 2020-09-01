@@ -3,7 +3,7 @@ export const allArtists = [
     {
       "fName": "Ashley",
       "lName": "Cai",
-      "link": "acai",
+      "link": "ashleycai",
       "artistDescription": "Ashley Cai is a designer, illustrator, storyteller, and Brown|RISD dual degree student from the San Francisco Bay Area. She is obsessed with becoming immersed in the emotions of other characters and hopes to deliver compelling and meaningful experiences. Her work often focuses on depicting narratives, characters, and fish; her animations have received critical acclaim from over a dozen film festivals and a silver medal from the Scholastic Art and Writing Awards. 1/3 of the profits from Ashley's work will go directly to charities focused on racial, economic, and environmental justice.",
     },
     {
@@ -22,7 +22,7 @@ export const allArtists = [
       "fName": "Cynthia",
       "lName": "Zhou",
       "link": "cynthiazhou",
-      "artistDescription": "",
+      "artistDescription": "Cynthia Zhou is a 18-year-old artist, designer, and poet currently attending studying design at the University of Pennsylvania. Her work -- which revolves around stories of equity and themes of memory + identity -- has been exhibited in the Kennedy Center in DC, as well as in NYC, San Francisco, Miami, and elsewhere. She is a 2018 National YoungArts Foundation Finalist and was recently recognized at the White House as a 2019 Presidential Scholar in the Arts. She loves amphibians, shiny stickers, and swing dancing. Hit her up at cynthiazhouart.com or @ethernautics on Instagram for cool lobster facts.",
     },
     {
       "fName": "Katrina",
