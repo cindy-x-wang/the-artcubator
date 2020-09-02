@@ -41,12 +41,12 @@ import passageoftime from "./pages/art/passageoftime.png";
 import pinkHQ from "./pages/art/pinkHQ.png";
 import pleaseremaincalm from "./pages/art/pleaseremaincalm.png";
 import portraitstudy from "./pages/art/portraitstudy.jpg";
-import reaching from "./pages/art/reaching.jpg";
+import reaching from "./pages/art/reaching.png";
 import rgb from "./pages/art/rgb.jpg";
 import salmonran from "./pages/art/salmonran.jpg";
 import salmonrun from "./pages/art/salmonrun.jpeg";
 import sinker from "./pages/art/sinker.png";
-import snake from "./pages/art/snake.jpg";
+import idreamtwespokeagain from "./pages/art/snake.jpg";
 import stitchedboxers from "./pages/art/stitchedboxers.jpeg";
 import sunroom from "./pages/art/sunroom.jpg";
 import tangled from "./pages/art/tangled.jpg";
@@ -132,8 +132,8 @@ class App extends Component {
         return eden;
       case 'passageoftime':
         return passageoftime;
-      /* case 'idreamtwespokeagain':
-        return idreamtwespokeagain; */
+      case 'idreamtwespokeagain':
+        return idreamtwespokeagain;
       case 'inferno':
         return inferno;
       case 'affinityfordreamingHQ':
