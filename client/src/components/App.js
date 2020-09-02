@@ -128,6 +128,8 @@ class App extends Component {
         return inthejungleinkpen;
       case 'inthejunglecp':
         return inthejunglecp;
+      case 'fishoutofwater':
+        return fishoutofwater;
       case 'eden':
         return eden;
       case 'passageoftime':

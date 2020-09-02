@@ -197,6 +197,15 @@ export const allArt = [
       "artMedium": "acrylic",
     },
     {
+      "artName": "Fish out of Water",
+      "artistName": "Katrina Liou",
+      "artImage": "fishoutofwater",
+      "link": "fishoutofwater",
+      "portrait": true,
+      "artDescription": "",
+      "artMedium": "gouache, watercolor",
+    },
+    {
       "artName": "Falling",
       "artistName": "Katrina Liou",
       "artImage": "falling",
