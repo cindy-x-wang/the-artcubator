@@ -56,7 +56,7 @@ export const allArt = [
       "artName": "Hook, Line, and Sinker",
       "artistName": "Ashley Cai",
       "artImage": "hooklinesinker",
-      "link": "hooklinesinker",
+      "link": "hook",
       "portrait": false,
       "artDescription": "The vitality is drained out of the fish as they are suctioned through a robotic, merciless system. This triptych represents how capitalism values people only for their productivity and discards them once they are no longer of use.",
       "artMedium": "watercolor",

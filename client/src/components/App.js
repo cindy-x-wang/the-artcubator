@@ -17,7 +17,7 @@ import { socket } from "../client-socket.js";
 import { get, post } from "../utilities";
 
 // Art imports
-import hooklinesinker from "./pages/art/hooklinesinker.png";
+import hooklinesinker from "./pages/art/hook.png";
 import banuga from "./pages/art/banuga.png";
 import affinityfordreamingHQ from "./pages/art/affinityfordreamingHQ.png";
 import baozijiaozi from "./pages/art/baozijiaozi.jpg";
@@ -41,7 +41,7 @@ import passageoftime from "./pages/art/passageoftime.png";
 import pinkHQ from "./pages/art/pinkHQ.png";
 import pleaseremaincalm from "./pages/art/pleaseremaincalm.png";
 import portraitstudy from "./pages/art/portraitstudy.jpg";
-import reaching from "./pages/art/reaching.HEIC";
+import reaching from "./pages/art/reaching.png";
 import rgb from "./pages/art/rgb.jpg";
 import salmonran from "./pages/art/salmonran.jpg";
 import salmonrun from "./pages/art/salmonrun.jpeg";
