@@ -1,6 +1,7 @@
 .portrait-container {
     position: relative;
     width: 100%;
+    min-height: 90vh;
     background: #fafafa;
 
     display: flex;

@@ -57,11 +57,12 @@ import wherethewildthingsare from "./pages/art/wherethewildthingsare.jpg";
 import {allArt, allArtists} from "./pages/art/allArt";
 
 // Artist headshot imports
-import AshleyCai from "./pages/artist_headshots/ashleycaiheadshot.jpg"
-import ConnieGong from "./pages/artist_headshots/conniegongheadshot.jpg"
-import LizaEvseeva from "./pages/artist_headshots/lizaevseevaheadshot.jpeg"
-import RickZhang from "./pages/artist_headshots/RickZhangheadshot.jpeg"
-import TaoLiu from "./pages/artist_headshots/taoliuheadshot.jpg"
+import AshleyCai from "./pages/artist_headshots/ashleycaiheadshot.jpg";
+import ConnieGong from "./pages/artist_headshots/conniegongheadshot.jpg";
+import LizaEvseeva from "./pages/artist_headshots/lizaevseevaheadshot.jpeg";
+import RickZhang from "./pages/artist_headshots/RickZhangheadshot.jpeg";
+import TaoLiu from "./pages/artist_headshots/taoliuheadshot.jpg";
+import AngelaWei from "./pages/artist_headshots/angelaweiheadshot.jpg";
 
 const Empty = ({ children }) => {
   return children;
@@ -210,6 +211,9 @@ class App extends Component {
     }
     if (artistLink == 'rickzhang') {
       return RickZhang;
+    }
+    if (artistLink == 'angelawei') {
+      return AngelaWei;
     }
   }
 
