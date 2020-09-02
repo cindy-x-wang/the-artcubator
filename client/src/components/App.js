@@ -17,13 +17,42 @@ import { socket } from "../client-socket.js";
 import { get, post } from "../utilities";
 
 // Art imports
-import banuga from "./pages/art/Banuga.png";
-import phase1 from "./pages/art/phase1.jpeg";
-import phase2 from "./pages/art/phase2.jpg";
-import Shift from "./pages/ray_art/shift.jpg";
-import deconstructed from "./pages/ray_art/deconstructed.jpg";
-import eden from "./pages/art/Eden.jpg";
-import calm from "./pages/art/calm.png";
+import hooklinesinker from "./pages/art/hooklinesinker.png";
+import banuga from "./pages/art/banuga.png";
+import affinityfordreamingHQ from "./pages/art/affinityfordreamingHQ.png";
+import baozijiaozi from "./pages/art/baozijiaozi.jpg";
+import bigblue from "./pages/art/bigblue.jpg";
+import blackhole from "./pages/art/blackhole.jpg";
+import boxers from "./pages/art/boxers.png";
+import catscradleHQ from "./pages/art/catscradleHQ.png";
+import eden from "./pages/art/eden.png";
+import falling from "./pages/art/falling.jpg";
+import fishoutofwater from "./pages/art/fishoutofwater.jpg";
+import fullboxer from "./pages/art/fullboxer.png";
+import goldfishbowl from "./pages/art/goldfishbowl.jpg";
+import hook from "./pages/art/hook.png";
+import inferno from "./pages/art/inferno.jpg";
+import inthejunglecp from "./pages/art/inthejunglecp.jpeg";
+import inthejungledigital from "./pages/art/inthejungledigital.jpg";
+import inthejungleinkpen from "./pages/art/inthejungleinkpen.jpg";
+import line from "./pages/art/line.png";
+import mypieta from "./pages/art/mypieta.jpg";
+import passageoftime from "./pages/art/passageoftime.png";
+import pinkHQ from "./pages/art/pinkHQ.png";
+import pleaseremaincalm from "./pages/art/pleaseremaincalm.png";
+import portraitstudy from "./pages/art/portraitstudy.jpg";
+import reaching from "./pages/art/reaching.HEIC";
+import rgb from "./pages/art/rgb.jpg";
+import salmonran from "./pages/art/salmonran.jpg";
+import salmonrun from "./pages/art/salmonrun.jpeg";
+import sinker from "./pages/art/sinker.png";
+import snake from "./pages/art/snake.jpg";
+import stitchedboxers from "./pages/art/stitchedboxers.jpeg";
+import sunroom from "./pages/art/sunroom.jpg";
+import tangled from "./pages/art/tangled.jpg";
+import thegoodolddays from "./pages/art/thegoodolddays.jpg";
+import traversingtime from "./pages/art/traversingtime.jpg";
+import wherethewildthingsare from "./pages/art/wherethewildthingsare.jpg";
 
 import {allArt, allArtists} from "./pages/art/allArt";
 
@@ -75,10 +104,74 @@ class App extends Component {
    * return an image
    */
   displayArt = (imageName) => {
-    if (imageName == 'banuga') {
+    switch(imageName) {
+      case 'hooklinesinker':
+        return hooklinesinker;
+      case 'banuga':
+        return banuga;
+      case 'pleaseremaincalm':
+        return pleaseremaincalm;
+      case 'wherethewildthingsare':
+        return wherethewildthingsare;
+      case 'inferno':
+        return inferno;
+      case 'inthejungledigital':
+        return inthejungledigital;
+      case 'pleaseremaincalm':
+        return pleaseremaincalm;
+      case 'inthejungleinkpen':
+        return inthejungleinkpen;
+      case 'inthejunglecp':
+        return inthejunglecp;
+      case 'eden':
+        return eden;
+      case 'passageoftime':
+        return passageoftime;
+      case 'idreamtwespokeagain':
+        return idreamtwespokeagain;
+      case 'inferno':
+        return inferno;
+      case 'affinityfordreamingHQ':
+        return affinityfordreamingHQ;
+      case 'pinkHQ':
+        return pinkHQ;
+      case 'boxers':
+        return boxers;
+      case 'baozijiaozi':
+        return baozijiaozi;
+      case 'thegoodolddays':
+        return thegoodolddays;
+      case 'falling':
+        return falling;
+      case 'traversingtime':
+        return traversingtime;
+      case 'tangled':
+        return tangled;
+      case 'portraitstudy':
+        return portraitstudy;
+      case 'blackhole':
+        return blackhole;
+      case 'goldfishbowl':
+        return goldfishbowl;
+      case 'sunroom':
+        return sunroom;
+      case 'reaching':
+        return reaching;
+      case 'rgb':
+        return rgb;
+      case 'bigblue':
+        return bigblue;
+      case 'salmonrun':
+        return salmonrun;
+      case 'salmonran':
+        return salmonran;
+      default:
+        // code block
+    }
+    /* if (imageName == 'banuga') {
       return banuga;
     }
-    else if (imageName == 'phase1') {
+    else if (imageName == 'salmonrun') {
       return phase1;
     }
     else if (imageName == 'phase2') {
@@ -95,7 +188,7 @@ class App extends Component {
     }
     else if (imageName == 'calm') {
       return calm;
-    }
+    } */
   }
 
   displayArtist = (artistLink) => {
