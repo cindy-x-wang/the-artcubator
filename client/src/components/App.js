@@ -143,7 +143,7 @@ class App extends Component {
       case 'pinkHQ':
         return pinkHQ;
       case 'boxers':
-        return boxers;
+        return stitchedboxers;
       case 'baozijiaozi':
         return baozijiaozi;
       case 'thegoodolddays':
