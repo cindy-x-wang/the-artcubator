@@ -23,7 +23,7 @@ class AboutUs extends Component {
               </div>
               <div className="founders-grid">
                 <div className="idiot-container">
-                  <div className="idiot-image-container-cindy"/>
+                  <div className="idiot-image-container-ray"/>
                   <div className="idiot-name">
                     raymond banke
                   </div>
@@ -41,7 +41,7 @@ class AboutUs extends Component {
                   </div>
                 </div>
                 <div className="idiot-container">
-                  <div className="idiot-image-container-cindy"/>
+                  <div className="idiot-image-container-leon"/>
                   <div className="idiot-name">
                     leon lu
                   </div>

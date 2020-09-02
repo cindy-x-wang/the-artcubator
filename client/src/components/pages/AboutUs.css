@@ -65,14 +65,16 @@
 }
 
 .idiot-image-container-ray {
-    background-image: url('./aboutus_images/cindy.jpg');
+    min-height: 60vh;
+    background-image: url('./aboutus_images/raymondbankeheadshot.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .idiot-image-container-leon {
-    background-image: url('./aboutus_images/cindy.jpg');
+    min-height: 60vh;
+    background-image: url('./aboutus_images/leonluheadshot.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

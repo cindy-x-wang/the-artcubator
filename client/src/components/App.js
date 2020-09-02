@@ -41,7 +41,7 @@ import passageoftime from "./pages/art/passageoftime.png";
 import pinkHQ from "./pages/art/pinkHQ.png";
 import pleaseremaincalm from "./pages/art/pleaseremaincalm.png";
 import portraitstudy from "./pages/art/portraitstudy.jpg";
-import reaching from "./pages/art/reaching.png";
+import reaching from "./pages/art/reaching.jpg";
 import rgb from "./pages/art/rgb.jpg";
 import salmonran from "./pages/art/salmonran.jpg";
 import salmonrun from "./pages/art/salmonrun.jpeg";
@@ -57,7 +57,11 @@ import wherethewildthingsare from "./pages/art/wherethewildthingsare.jpg";
 import {allArt, allArtists} from "./pages/art/allArt";
 
 // Artist headshot imports
-import AshleyCai from "./pages/artist_headshots/AshleyCai.jpg"
+import AshleyCai from "./pages/artist_headshots/ashleycaiheadshot.jpg"
+import ConnieGong from "./pages/artist_headshots/conniegongheadshot.jpg"
+import LizaEvseeva from "./pages/artist_headshots/lizaevseevaheadshot.jpeg"
+import RickZhang from "./pages/artist_headshots/RickZhangheadshot.jpeg"
+import TaoLiu from "./pages/artist_headshots/taoliuheadshot.jpg"
 
 const Empty = ({ children }) => {
   return children;
@@ -127,8 +131,8 @@ class App extends Component {
         return eden;
       case 'passageoftime':
         return passageoftime;
-      case 'idreamtwespokeagain':
-        return idreamtwespokeagain;
+      /* case 'idreamtwespokeagain':
+        return idreamtwespokeagain; */
       case 'inferno':
         return inferno;
       case 'affinityfordreamingHQ':
@@ -166,7 +170,7 @@ class App extends Component {
       case 'salmonran':
         return salmonran;
       default:
-        // code block
+        return
     }
     /* if (imageName == 'banuga') {
       return banuga;
@@ -192,8 +196,20 @@ class App extends Component {
   }
 
   displayArtist = (artistLink) => {
-    if (artistLink == 'acai') {
+    if (artistLink == 'ashleycai') {
       return AshleyCai;
+    }
+    if (artistLink == 'conniegong') {
+      return ConnieGong;
+    }
+    if (artistLink == 'lizaevseeva') {
+      return LizaEvseeva;
+    }
+    if (artistLink == 'taoliu') {
+      return TaoLiu;
+    }
+    if (artistLink == 'rickzhang') {
+      return RickZhang;
     }
   }
 
